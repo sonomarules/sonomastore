@@ -3,58 +3,47 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Coming Soon – New CD</title>
+  <title>Coming Soon</title>
   <style>
     body {
       margin: 0;
       padding: 0;
-      font-family: "Segoe UI", sans-serif;
-      background: linear-gradient(120deg, #1e3c72, #2a5298);
-      color: white;
+      font-family: sans-serif;
+      background: #f4f4f4;
+      color: #111;
       display: flex;
-      flex-direction: column;
       align-items: center;
       justify-content: center;
       height: 100vh;
       text-align: center;
     }
 
+    .container {
+      max-width: 600px;
+      padding: 20px;
+    }
+
     h1 {
-      font-size: 3rem;
+      font-size: 2.5em;
       margin-bottom: 0.5em;
     }
 
     p {
-      font-size: 1.2rem;
-      margin: 0.5em 0;
-    }
-
-    .support-link {
-      margin-top: 1em;
-      padding: 10px 20px;
-      background: white;
-      color: #2a5298;
-      text-decoration: none;
-      border-radius: 8px;
-      font-weight: bold;
-      transition: background 0.3s ease;
-    }
-
-    .support-link:hover {
-      background: #f1f1f1;
+      font-size: 1.1em;
+      margin-top: 0;
     }
   </style>
 </head>
 <body>
-  <h1>🎵 New CD is coming soon!</h1>
-  <p>We're working on something special. Stay tuned!</p>
-  <p>If you want to ask something, use the support tab.</p>
-  <a href="support.html" class="support-link">Go to Support</a>
+  <div class="container">
+    <h1>New CD Coming Soon</h1>
+    <p>If you want to ask something, use the support tab.</p>
+  </div>
 
   <!-- Smartsupp Live Chat script -->
   <script type="text/javascript">
     var _smartsupp = _smartsupp || {};
-    _smartsupp.key = 'bd54ebdc81084acaee40650166ee591fe78567bb';
+    _smartsupp.key = 'a60059803ab8d4545b7b1efc942bbca5b24758d0';
     window.smartsupp||(function(d) {
       var s,c,o=smartsupp=function(){ o._.push(arguments)};o._=[];
       s=d.getElementsByTagName('script')[0];c=d.createElement('script');
@@ -62,6 +51,8 @@
       c.src='https://www.smartsuppchat.com/loader.js?';s.parentNode.insertBefore(c,s);
     })(document);
   </script>
-  <noscript>Powered by <a href="https://www.smartsupp.com" target="_blank">Smartsupp</a></noscript>
+  <noscript>
+    Powered by <a href="https://www.smartsupp.com" target="_blank">Smartsupp</a>
+  </noscript>
 </body>
 </html>
